@@ -1,4 +1,3 @@
-// tiger.go
 package animal
 
 type Tiger struct{}

@@ -1,4 +1,3 @@
-// snake.go
 package animal
 
 type Snake struct{}

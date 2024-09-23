@@ -1,4 +1,3 @@
-// utils.go
 package utils
 
 import (
@@ -6,7 +5,6 @@ import (
 	"project/animal"
 )
 
-// Describe выводит информацию о животном
 func Describe(a animal.Animal) {
     fmt.Println("животное:", a.Name())
     fmt.Println("звук:", a.Sound())

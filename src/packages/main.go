@@ -2,9 +2,9 @@ package main
 
 import (
     "fmt"
-    "project/animal"   // Импорт пакета animal
-    "project/handler"  // Импорт обработчика взаимодействий
-    "project/utils"    // Импорт вспомогательных функций
+    "project/animal"
+    "project/handler"
+    "project/utils"
 )
 
 func main() {
@@ -15,8 +15,8 @@ func main() {
     }
 
     for _, a := range animals {
-        utils.Describe(a)        // Здесь мы используем Describe
-        handler.CheckSwim(a)     // И проверяем на способность плавать
+        utils.Describe(a)
+        handler.CheckSwim(a)
         fmt.Println()
     }
 }

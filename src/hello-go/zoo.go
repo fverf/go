@@ -136,7 +136,7 @@ func checkswim(anyanimal Animal) {
     }
 }
 
-func main() {
+func mainzoo() {
     animals := []Animal{Monkey{}, Snake{}, Tiger{}, Panda{}, Bogomol{}}
 
     for _, a := range animals {

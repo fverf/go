@@ -63,5 +63,5 @@ func main() {
 
 //в терминале выводится:
 // Пользователи:
-// Имя: Alice, Email: alice@example.com
-// Имя: Bob, Email: bob@example.com
+// Имя: Катька, Email: katya@gmail.com
+// Имя: Мишка, Email: mishka@gmail.com

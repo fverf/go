@@ -32,12 +32,12 @@ func main() {
 
     insertUserSQL := `INSERT INTO users (username, email) VALUES (?, ?)`
     
-    _, err = db.Exec(insertUserSQL, "Alice", "alice@example.com")
+    _, err = db.Exec(insertUserSQL, "Катька", "katya@gmail.com")
     if err != nil {
         log.Fatal(err) //если ошибка
     }
 
-    _, err = db.Exec(insertUserSQL, "Bob", "bob@example.com")
+    _, err = db.Exec(insertUserSQL, "Мишка", "mishka@gmail.com")
     if err != nil {
         log.Fatal(err) //ошибка
     }

@@ -3,25 +3,27 @@ package animal
 type Tiger struct{}
 
 func (Tiger) Sound() string {
-    return "рррррр!"
+	return "рррррр!"
 }
 
 func (Tiger) Move() string {
-    return "бежит"
+	return "бежит"
 }
 
 func (Tiger) Eat() string {
-    return "мясо"
+	return "мясо"
 }
 
 func (Tiger) Sleep() string {
-    return "тренирует кунгфу"
+	return "тренирует кунгфу"
 }
 
 func (Tiger) Name() string {
-    return "тигр"
+	return "тигр"
 }
 
 func (Tiger) Swim() string {
-    return "кошка плывет"
+	return "кошка плывет"
 }
+
+//
